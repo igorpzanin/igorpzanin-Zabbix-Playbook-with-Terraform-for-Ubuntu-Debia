@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"bastion-host","Source":"../terraform","Dir":"../terraform"},{"Key":"document-server","Source":"../terraform","Dir":"../terraform"},{"Key":"dummy-battleground","Source":"../terraform","Dir":"../terraform"},{"Key":"kafka-server","Source":"../terraform","Dir":"../terraform"}]}
