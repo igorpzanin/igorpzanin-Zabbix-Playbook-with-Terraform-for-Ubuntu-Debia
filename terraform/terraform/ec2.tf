@@ -20,9 +20,4 @@ resource "aws_instance" "instance" {
     volume_size           = var.volume_size
     delete_on_termination = true
   }
-
-  provisioner "local-exec" {
-    command = "sudo ansible-playbook -i hosts ${var.playbook_path} --extra-vars 'zabbix_version=5.0' --private-key=${var.private_key}"
-  }
-
 }
